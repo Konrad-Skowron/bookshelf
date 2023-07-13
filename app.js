@@ -34,7 +34,7 @@ function displayBooks() {
   container.innerHTML = "";
 
   const h1 = document.createElement('h1');
-  h1.innerHTML = "My Books 📚";
+  h1.innerHTML = "My Books";
   container.append(h1);
 
   for (i = 0; i < myLibrary.length; i++) {
